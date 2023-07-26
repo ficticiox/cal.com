@@ -115,6 +115,7 @@ export interface App {
    * Used to show Connect/Disconnect buttons in App Store
    * */
   isGlobal?: boolean;
+  simplePath?: string;
   /** A contact email, mainly to ask for support */
   email: string;
   /** Needed API Keys (usually for global apps) */
